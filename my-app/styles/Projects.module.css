@@ -1,0 +1,52 @@
+.container {
+  background-color: #232637;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.main h1 {
+  font-size: 2.2em;
+}
+
+.title {
+  padding: 10px 0px;
+  width: 75%;
+  align-self: center;
+}
+
+.card-text a:hover {
+  color: white !important;
+}
+
+@media screen and (max-width: 460px) {
+  .main {
+    padding: 3rem 0;
+  }
+}
+
+.experience,
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.4rem;
+  padding-right: 0px;
+}
+
+.gh:hover {
+  color: white;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project .iconUrl {
+  outline: 2px solid white;
+}

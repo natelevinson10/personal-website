@@ -1,0 +1,21 @@
+/* styles/Shapes.module.css */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #888888;
+    border-radius: 50%;
+    animation: float 4s ease-in-out infinite;
+  }

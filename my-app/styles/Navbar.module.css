@@ -1,0 +1,32 @@
+.navbar {
+  padding: 2rem;
+  width: 100%;
+  z-index: 9999;
+  background-color: #232637;
+}
+  
+  .navbarList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .navbarItem {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .navbarLink {
+    color: #a9a7a7;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbarItem:hover .navbarLink {
+    color: rgb(251, 251, 251);
+  }
