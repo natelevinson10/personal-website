@@ -32,7 +32,7 @@
   }
   
   .main p {
-    font-size: 1.2em;
+    font-size: .9em;
     padding: 10px 0px;
   }
   
@@ -77,30 +77,30 @@
   
   
   .funFacts h2 {
-    font-size: 2.2rem; /* Increase the font size for the fun facts heading */
-    margin-bottom: 0.5rem; /* Reduce the margin-bottom for the fun facts heading */
+    font-size: 2.2rem; 
+    margin-bottom: 0.5rem;
   }
   
   .funFacts li {
-    font-size: 1.2rem; /* Increase the font size for the fun facts */
-    margin-bottom: 1rem; /* Add some space between the fun facts */
+    font-size: .9rem; 
+    margin-bottom: 1rem; 
     margin-left: 0.5rem;
   }
   
   @media only screen and (max-width: 768px) {
     .content {
-      flex-direction: column; /* Change to a column layout */
-      align-items: center; /* Center align the items */
-      margin-top: 1rem; /* Adjust the margin-top for spacing */
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 1rem; 
     }
   
     .content .textWrapper {
-      margin-bottom: 1.2em; /* Add some spacing between the text and image */
+      margin-bottom: 1.2em; 
     }
   
     .borderCircle {
-      width: 300px; /* Adjust the width of the image */
-      height: 400px; /* Adjust the height of the image */
-      margin-top: 1.2em; /* Adjust the margin-top for spacing */
+      width: 300px; 
+      height: 400px; 
+      margin-top: 1.2em; 
     }
   }
