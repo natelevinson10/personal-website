@@ -5,25 +5,29 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Badge from 'react-bootstrap/Badge';
+import clip from '../public/static/clip.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 
-export default function Project({ name, iconUrl, duration, description, skills}: ProjectType) {
+export default function Project({ name, iconUrl, duration, description, skills }: ProjectType) {
     return (
         <Card className='w-75' bg='dark' text='white' style={{ flex: 1 }}>
             <Card.Body>
                 <Row>
                     <Col>
-                        <Card.Title>{name}
-                            {iconUrl &&
-                                <span>
-                                    {' '}{' '}
-                                    <Link href={iconUrl} style={{ color: 'white' }} passHref>
-                                        <FontAwesomeIcon icon={faMedium}/>
-                                    </Link>
-                                </span>
-                            }
+                        <Card.Title style={{ display: 'flex', alignItems: 'center' }}>
+                            {name}
+                            {iconUrl && (
+                                <Link href={iconUrl} style={{ color: 'white', marginLeft: '5px' }} passHref>
+                                    <Image
+                                        src={clip.src}
+                                        alt="Description of the image"
+                                        width="15"
+                                        height="10"
+                                    />
+                                </Link>
+                            )}
                         </Card.Title>
                         <Card.Text>
                             <small><i>{duration}</i></small>
