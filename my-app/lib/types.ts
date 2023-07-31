@@ -23,7 +23,4 @@ export type ProjectType = {
     duration: string;
     description: Array<string>;
     skills: Array<string>;
-    image: StaticImageData;
-    imageWidth: number;
-    centerImage?: boolean;
 }

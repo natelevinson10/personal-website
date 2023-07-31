@@ -76,15 +76,6 @@
   margin-right: auto;
 }
 
-.Home_email,
-.Home_spotify,
-.Home_linkedin,
-.Home_github,
-.Home_medium {
-  width: 3rem;
-  height: 3rem;
-}
-
 .Home_email:hover,
 .Home_linkedin:hover,
 .Home_github:hover,
@@ -94,10 +85,12 @@
   transform-origin: center center;
 }
 
+
 .social-icon {
   width: 100%;
   height: 100%;
   object-fit: contain;
+
 }
 
 .flex {
@@ -118,4 +111,59 @@
 
 .Home_main {
   user-select: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .Home_content {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .Home_container {
+      background-color: #232637;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh; 
+    }
+
+  .pfp_circle {
+    width: 12rem; 
+    height: 12rem; 
+    margin-right: 0;
+    margin-bottom: 2rem; 
+    margin-top: -7rem; 
+
+  }
+
+  .Home_info {
+    margin-bottom: 3rem; 
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 2.5rem; 
+  }
+
+  .description {
+    font-size: 1rem; 
+  }
+
+  .Home_socials {
+    position: relative;
+    bottom: unset;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0; 
+  }
+
+  .Home_email,
+  .Home_spotify,
+  .Home_linkedin,
+  .Home_github,
+  .Home_medium {
+    width: 3rem;
+    height: 3rem;
+  }
 }

@@ -6,8 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Badge from 'react-bootstrap/Badge';
 import clip from '../public/static/clip.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Project({ name, iconUrl, duration, description, skills }: ProjectType) {
