@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className={`${styles.Home_info}`}>
               <h1 className={`${styles.title}`}>Hi, I'm</h1>
-              <h2 className={`${styles.subtitle}`}>Nate Levinson</h2>
+              <h2 className={`${styles.subtitle}`}><strong>Nate Levinson</strong></h2>
               <a href="/about"><h3 className={`${styles.description}`}>click here to get to know me ➡️ </h3></a>
               <br />
               <a href="/projects"><h4 className={`${styles.description}`}>click here to see my projects ➡️ </h4></a>
