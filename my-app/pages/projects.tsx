@@ -36,7 +36,7 @@ export default function Projects() {
                     <Project
                         name='Personal Business'
                         duration='March 2019 - Present'
-                        description={["Developed Python software assisting in the generation of over $500,000 in revenue and a six-figure profit. This software monitors 45+ websites that release products with high demand at retail prices which can be bought up and sold on secondary markets for substantial markups (sports cards, shoes, etc.). The monitoring system uses Python's Requests library and sends an alert when an item matching given keywords (e.g. 'Air Jordan 1' or 'Wayne Gretzky' ) is loaded onto a website. This efficient monitoring process helps track product releases online and ensures timely attention to valuable opportunities leading to profit in the secondary market."]}
+                        description={["Developed Python software assisting in the generation of over $500,000 in revenue and a six-figure profit. This software monitors 45+ websites that release products with high demand at retail prices which can be bought up and sold on secondary markets for substantial markups (sports cards, shoes, etc.). The multi-threaded monitoring system uses Python's Requests library and sends an alert when an item matching given keywords (e.g. 'Air Jordan 1' or 'Wayne Gretzky' ) is loaded onto a website. This efficient monitoring process helps track product releases online and ensures timely attention to valuable opportunities leading to profit in the secondary market."]}
                         skills={['Python', 'HTML/CSS']}
                     />
                     <Project
