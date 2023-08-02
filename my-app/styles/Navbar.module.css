@@ -31,3 +31,9 @@
 .navbarItem:hover .navbarLink {
   color: rgb(251, 251, 251);
 }
+
+@media screen and (max-width: 600px) {
+  .navbarLink {
+    font-size: 12px;
+  }
+}
