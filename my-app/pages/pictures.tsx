@@ -15,7 +15,6 @@ import img10 from '../public/static/guitar.jpg';
 import img11 from '../public/static/drive.jpg';
 import img12 from '../public/static/dog2.jpg';
 import img13 from '../public/static/dog1.jpg';
-import img14 from '../public/static/concert.jpg';
 import img15 from '../public/static/comp.jpg';
 import img16 from '../public/static/burrito.jpg';
 import img17 from '../public/static/bike.jpg';
