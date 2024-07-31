@@ -17,8 +17,19 @@ export default function Projects() {
             <main className={styles.main}>
                 <h1 className={styles.title}>Projects⬇️</h1>
                 <Stack gap={3} className='align-items-center'>
+                <Project
+                        name='🌎 GeoGames LLC (Acquired) '
+                        iconUrl='https://www.geogridgame.com/'
+                        duration='March 2024 - June 2024'
+                        description={[
+                            "GeoGrid - A daily trivia game made to put your geography knowledge to the test. GeoGrid has been played 2.5+ million and has over 10,000 active daily players. This game was acquired by a game development studio within 30 days of the initial launch.",
+                            '\n',
+                            "Play now by clicking the clip symbol at the top of this card!"
+                        ]}
+                        skills={['Python', 'fastAPI', 'Vue.JS', 'mongo DB']}
+                    />
                     <Project
-                        name='SeatSecure'
+                        name='🍽️ SeatSecure'
                         iconUrl='https://medium.com/@natelevinson10/reverse-engineering-resys-api-to-book-the-most-exclusive-restaurants-in-seconds-b64e36315e2a'
                         duration='August 2022 - Present'
                         description={[
@@ -29,20 +40,20 @@ export default function Projects() {
                         skills={['Python', 'HTML/CSS', 'Restful API', 'Requests']}
                     />
                     <Project
-                        name='Personal Business'
+                        name='🛍️ Personal Business'
                         duration='March 2019 - Present'
                         description={["Developed Python software assisting in the generation of over $500,000 in revenue and a six-figure profit. This software monitors 60 websites that release products with high demand at retail prices which can be bought up and sold on secondary markets for substantial markups (sports cards, shoes, etc.). By reverse engineering the Restful API framework of these retail websites, a backend multi-thread monitoring system is established using Python's Requests library to send an alert when an item matching given keywords (e.g. 'Air Jordan 1' or 'Wayne Gretzky' ) is loaded onto a website. This efficient monitoring process helps track product releases online and ensures timely attention to valuable opportunities leading to profit in the secondary market."]}
                         skills={['Python', 'Restful API', 'HTML/CSS']}
                     />
                     <Project
-                        name='Sports Betting Optimizer'
+                        name='🏒 Sports Betting Optimizer'
                         iconUrl='https://github.com/natelevinson10/prizepicks_nhl_optimizer'
                         duration='Jan 2023'
                         description={['A script designed to maximize the expected value (EV) of sports bets on PrizePicks.com by scraping data from both PrizePicks and NHL.com. The tool scrapes player statistics and projections and compares them to locate the lines with the best odds of hitting for categories such as Shots On Goal, Hits, Assists, Points, Goals, and Blocked Shots. This script implements a z-score calculation to sort players based on their recent performance, helping users make informed and strategic sports betting decisions in NHL games.']}
                         skills={['Python', 'Pandas', '.CSV', 'Restful API', 'Statistics']}
                     />
                     <Project
-                        name='Geoguessr Tool'
+                        name='🔎 Geoguessr Tool'
                         duration='December 2022'
                         iconUrl='https://medium.com/@natelevinson10/how-i-reverse-engineered-geoguessrs-api-and-landed-the-1-global-score-1fd17d8a37c6'
                         description={[
