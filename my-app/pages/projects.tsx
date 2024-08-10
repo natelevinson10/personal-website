@@ -22,7 +22,7 @@ export default function Projects() {
                         iconUrl='https://www.geogridgame.com/'
                         duration='March 2024 - June 2024'
                         description={[
-                            "GeoGrid - A daily trivia game made to put your geography knowledge to the test. GeoGrid has been played 2.5+ million and has over 10,000 active daily players. This game was acquired by a game development studio within 30 days of the initial launch.",
+                            "GeoGrid - A daily trivia game made to put your geography knowledge to the test. GeoGrid has been played 3+ million times and has over 10,000 active daily players. This game was acquired by a game development studio within 30 days of the initial launch.",
                             '\n',
                             "Play now by clicking the clip symbol at the top of this card!"
                         ]}
