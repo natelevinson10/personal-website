@@ -20,9 +20,6 @@ const Navbar = () => {
         <li className={styles.navbarItem}>
           <a href="/pictures" className={styles.navbarLink}>Pictures</a>
         </li>
-        <li className={styles.navbarItem}>
-          <a href="/resume.pdf" className={styles.navbarLink}>Résumé</a>
-        </li>
       </ul>
     </nav>
   );

@@ -22,7 +22,7 @@ export default function Projects() {
                         iconUrl='https://www.geogridgame.com/'
                         duration='March 2024 - June 2024'
                         description={[
-                            "GeoGrid - A daily trivia game made to put your geography knowledge to the test. GeoGrid has been played 3+ million times and has over 10,000 active daily players. This game was acquired by a game development studio within 30 days of the initial launch.",
+                            "GeoGrid - A daily trivia game made to put your geography knowledge to the test. GeoGrid has been played 10+ million times and has over 25,000 active daily players. This game was acquired by a game development studio within 30 days of the initial launch.",
                             '\n',
                             "Play now by clicking the clip symbol at the top of this card!"
                         ]}
@@ -33,7 +33,7 @@ export default function Projects() {
                         iconUrl='https://medium.com/@natelevinson10/reverse-engineering-resys-api-to-book-the-most-exclusive-restaurants-in-seconds-b64e36315e2a'
                         duration='August 2022 - Present'
                         description={[
-                            "A tool to conveniently book dinner reservations at the most popular venues around the country. SeatSecure automates the dinner reservation process, taking information such as location, time, party size, and date into account and ensuring the first open table matching the given criteria will be reserved.  By analyzing backend network requests to and from Resy.com, SeatSecure is able to mimic the flow of the reservation process as a human does in an extremely efficient manner. This system also leverages a proxy server and a multi-thread monitoring process, ensuring unmatched speed and reliability and eliminating the need for endless refreshing or long phone wait times. Seatsecure has secured customers tables at exclusive venues such as: 4 Charles Prime Rib (NY), Anajak Thai (CA), Zahav (PA), Boja De (FL), Mujo (GA), and many more.",
+                            "To book my mom a fancy birthday reservation, I built an optimized bot that snipes reservations on Resy. After its initial success, I grew this bot to become among the most used reservation tools in the country accounting for over 10,000 reservations nationwide. Popular restaurants booked by this script include 4 Charles Prime Rib (NYC), Copra (SF), Anajak Thai (LA), Zahav (Philadelphia), and Boja De (Miami).",
                             '\n',
                             "I wrote a technical summary of my code, which can be read by clicking the clip symbol at the top of this card."
                         ]}
@@ -42,7 +42,7 @@ export default function Projects() {
                     <Project
                         name='🛍️ Personal Business'
                         duration='March 2019 - Present'
-                        description={["Developed Python software assisting in the generation of over $500,000 in revenue and a six-figure profit. This software monitors 60 websites that release products with high demand at retail prices which can be bought up and sold on secondary markets for substantial markups (sports cards, shoes, etc.). By reverse engineering the Restful API framework of these retail websites, a backend multi-thread monitoring system is established using Python's Requests library to send an alert when an item matching given keywords (e.g. 'Air Jordan 1' or 'Wayne Gretzky' ) is loaded onto a website. This efficient monitoring process helps track product releases online and ensures timely attention to valuable opportunities leading to profit in the secondary market."]}
+                        description={["Developed Python software to monitor 60 websites that release products with high demand at retail prices which can be bought up and sold on secondary markets for substantial markups (sports cards, shoes, etc.). By reverse engineering the Restful API framework of these retail websites, a backend multi-thread monitoring system is established using Python's Requests library to send an alert when an item matching given keywords (e.g. 'Air Jordan 1' or 'Wayne Gretzky' ) is loaded onto a website. This efficient monitoring process helps track product releases online and ensures timely attention to valuable opportunities leading to profit in the secondary market."]}
                         skills={['Python', 'Restful API', 'HTML/CSS']}
                     />
                     <Project
