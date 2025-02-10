@@ -22,7 +22,7 @@ export default function About() {
             <div className={styles.about}>
               <div className={styles.aboutText}>
                 <p>
-                  Hello! I am a senior at <strong>Wesleyan University</strong> pursuing a Bachelor of Arts in  Computer Science. I'm 20 years old and am from <strong>Philadelphia, PA</strong> (go birds🦅).
+                  Hello! I am a senior at <strong>Wesleyan University</strong> pursuing a Bachelor of Arts in  Computer Science. I'm 21 years old and am from <strong>Philadelphia, PA</strong> (go birds🦅).
                 </p>
                 <p>
                   I find joy in crafting solutions to real-world problems. My personal projects often stem from a desire to overcome specific challenges, driving me to code with a clear sense of purpose. Building these problem-solving tools brings immense satisfaction and fuels my passion for the world of coding even further. I am eager to explore new possibilities and expand my skills as a developer.
